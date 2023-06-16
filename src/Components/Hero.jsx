@@ -61,8 +61,8 @@ function Hero() {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.5 }}
               >
-                <div className="grid lg:flex justify-between p-3">
-                  <div className="grid gap-2 w-80">
+                <div className="grid lg:flex md:flex justify-between p-3">
+                  <div className="grid gap-2 w-80 ">
                     <h2 className="text-3xl font-semibold">
                       Women Slicing Bread
                     </h2>
@@ -90,7 +90,12 @@ function Hero() {
             </div>
             <div className="grid lg:flex md:flex gap-2">
               <div className="bg-[#986b54] w-full lg:w-1/2 rounded-lg">
-                <div className="p-3">
+                <motion.div
+                  className="p-3"
+                  initial={{ opacity: 0, scale: 0.9 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ duration: 0.5 }}
+                >
                   <div>
                     <img
                       src="https://ychef.files.bbci.co.uk/1600x900/p04cffrr.webp"
@@ -109,14 +114,18 @@ function Hero() {
                     </div>
                   </div>
                   <p>
-                  Non excepteur exercitation officia Lorem minim adipisicing Lorem. Ut laborum Lorem dolor deserunt nisi commodo fugiat. Ex cillum ex Lorem in id do eu nisi velit minim duis culpa. Sit ipsum in labore ipsum.
-
+                    Non excepteur exercitation officia Lorem minim adipisicing Lorem. Ut laborum Lorem dolor deserunt nisi commodo fugiat. Ex cillum ex Lorem in id do eu nisi velit minim duis culpa. Sit ipsum in labore ipsum.
                   </p>
                   <Bottom/>
-                </div>
+                </motion.div>
               </div>
               <div className="bg-[#b3a38a]  w-full lg:w-1/2 rounded-lg">
-                <div className="p-3">
+                <motion.div
+                  className="p-3"
+                  initial={{ opacity: 0, scale: 0.9 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ duration: 0.5 }}
+                >
                   <div className="flex justify-between mb-6 p-3">
                     <div>
                       <button className="border rounded-full border-[#302013] px-2">
@@ -144,9 +153,9 @@ function Hero() {
                     <span className="font-semibold">NETHERLAND</span>
                   </div>
                   <hr className="border-t-2 border-[#302013] my-2" />
-                  <hr className="border-t-2 border-[#302013]" />
+                  <hr className="border-t-2 border-[#302013] my-2" />
                   <Bottom />
-                </div>
+                </motion.div>
               </div>
             </div>
           </div>
