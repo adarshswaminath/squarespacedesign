@@ -89,14 +89,64 @@ function Hero() {
               </motion.div>
             </div>
             <div className="grid lg:flex md:flex gap-2">
-              <div className="bg-[#986b54] h-96 w-full lg:w-1/2 rounded-lg"></div>
-              <div className="bg-[#b3a38a] h-96 w-full lg:w-1/2 rounded-lg">
-               <div className="p-3">
+              <div className="bg-[#986b54] w-full lg:w-1/2 rounded-lg">
+                <div className="p-3">
                   <div>
-                    <h2 className="text-2xl font-semibold">Vintage Painting</h2>
-                    <p className="mt-2">Ullamco aliqua adipisicing cupidatat proident consequat reprehenderit id culpa. Est culpa ad qui adipisicing. Dolore est nostrud reprehenderit non duis dolor.</p>
+                    <img
+                      src="https://ychef.files.bbci.co.uk/1600x900/p04cffrr.webp"
+                      className="rounded-lg"
+                      alt=""
+                    />
                   </div>
-               </div>
+                  <div className="flex justify-between mt-3">
+                    <div>
+                      <h2 className="text-3xl font-semibold">Portrait</h2>
+                    </div>
+                    <div className="flex">
+                      <div className="h-8 w-8  bg-[#302013] rounded-full"></div>
+                      <div className="h-8 w-8  bg-[#302013] rounded-full"></div>
+                      <div className="h-8 w-8  bg-[#302013] rounded-full"></div>
+                    </div>
+                  </div>
+                  <p>
+                  Non excepteur exercitation officia Lorem minim adipisicing Lorem. Ut laborum Lorem dolor deserunt nisi commodo fugiat. Ex cillum ex Lorem in id do eu nisi velit minim duis culpa. Sit ipsum in labore ipsum.
+
+                  </p>
+                  <Bottom/>
+                </div>
+              </div>
+              <div className="bg-[#b3a38a]  w-full lg:w-1/2 rounded-lg">
+                <div className="p-3">
+                  <div className="flex justify-between mb-6 p-3">
+                    <div>
+                      <button className="border rounded-full border-[#302013] px-2">
+                        European
+                      </button>
+                    </div>
+                    <div>
+                      <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/William_Shakespeare_by_John_Taylor.jpg/220px-William_Shakespeare_by_John_Taylor.jpg"
+                        className="rounded-full h-12 w-12"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div className="mb-8">
+                    <h2 className="text-2xl font-semibold">Vintage Painting</h2>
+                    <p className="mt-2">
+                      Non excepteur exercitation officia Lorem minim adipisicing Lorem. Ut laborum Lorem dolor deserunt nisi commodo fugiat. Ex cillum ex Lorem in id do eu nisi velit minim duis culpa. Sit ipsum in labore ipsum.
+                    </p>
+                  </div>
+                  <hr className="border-t-2 border-[#302013] my-4" />
+
+                  <div className=" flex justify-between">
+                    <span className="font-semibold">PUBLIC DOMAIN</span>
+                    <span className="font-semibold">NETHERLAND</span>
+                  </div>
+                  <hr className="border-t-2 border-[#302013] my-2" />
+                  <hr className="border-t-2 border-[#302013]" />
+                  <Bottom />
+                </div>
               </div>
             </div>
           </div>
