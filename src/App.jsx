@@ -8,7 +8,7 @@ import Hero from './Components/Hero'
 function App() {
 
   return (
-    <div className='bg-[#1a1c19] text-white'>
+    <div className='bg-[#1a1c19] text-white>
       <Navbar/>
       <Hero/>
     </div>

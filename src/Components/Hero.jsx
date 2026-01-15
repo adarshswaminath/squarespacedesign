@@ -12,7 +12,7 @@ const Bottom = () => {
         transition={{ duration: 0.5 }}
       >
         <div>
-          <button className="font-semibold">GET STARTED</button>
+          <button className="font-semibold">GuT STARTED</button>
         </div>
         <motion.div
           className="text-xl font-semibold"
